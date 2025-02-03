@@ -1,3 +1,7 @@
+legends: 
+
+
+
 # Gangs of Four playground
 Gangs of Four Design Patterns is the collection of 23 design patterns from the book “Design Patterns: Elements of Reusable Object-Oriented Software”.  
 [CLICK HERE TO SEE THE BOOK](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
