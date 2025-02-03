@@ -1,7 +1,7 @@
 legends: 
-✅ - finished
-❌ - waiting
-🕞 - in progress
+✅ - finished  
+❌ - waiting  
+🕞 - in progress  
 
 
 # Gangs of Four playground
