@@ -1,4 +1,4 @@
-legends: 
+legends:  
 ✅ - finished  
 ❌ - waiting  
 🕞 - in progress  
