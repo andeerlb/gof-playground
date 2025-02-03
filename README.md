@@ -1,5 +1,7 @@
 legends: 
-
+✅ - Finished
+❌ - Not started
+🕞 - In progress
 
 
 # Gangs of Four playground
@@ -9,30 +11,30 @@ Gangs of Four Design Patterns is the collection of 23 design patterns from the b
 
 ### GoF Design Patterns are divided into three categories:
 #### Creational - The design patterns that deal with the creation of an object.
-* Singleton
-* Factory
-* Abstract
-* Builder
-* Prototype
+* 🕞 Singleton
+* ❌ Factory
+* ❌ Abstract
+* ❌ Builder
+* ❌ Prototype
 
 #### Structural - The design patterns in this category deals with the class structure such as Inheritance and Composition.
-* Adapter
-* Composite
-* Proxy
-* Flyweight
-* Facade
-* Bridge
-* Decorator
+* ❌ Adapter
+* ❌ Composite
+* ❌ Proxy
+* ❌ Flyweight
+* ❌ Facade
+* ❌ Bridge
+* ❌ Decorator
 
 #### Behavioral - This type of design patterns provide solution for the better interaction between objects, how to provide lose coupling, and flexibility to extend easily in future.
-* Template
-* Mediator
-* Chain
-* Observer
-* Strategy
-* Command
-* State
-* Visitor
-* Interpreter
-* Iterator
-* Memento
+* ❌ Template
+* ❌ Mediator
+* ❌ Chain
+* ❌ Observer
+* ❌ Strategy
+* ❌ Command
+* ❌ State
+* ❌ Visitor
+* ❌ Interpreter
+* ❌ Iterator
+* ❌ Memento
