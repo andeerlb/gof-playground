@@ -11,8 +11,8 @@ Gangs of Four Design Patterns is the collection of 23 design patterns from the b
 
 ### GoF Design Patterns are divided into three categories:
 #### Creational - The design patterns that deal with the creation of an object.
-* 🕞 [Singleton](src/main/java/com/andeerlb/gof/singleton/README.md)
-* ❌ Factory
+* ✅ [Singleton](src/main/java/com/andeerlb/gof/singleton/README.md)
+* 🕞 Factory
 * ❌ Abstract
 * ❌ Builder
 * ❌ Prototype
