@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class AppTest {
+public class SingletonTest {
     @Test
     @DisplayName("Test singleton instance is unique")
     public void shouldBeUnique() {
