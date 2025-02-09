@@ -13,6 +13,6 @@ public class DeliveryFee implements Fee {
 
     @Override
     public BigDecimal fee() {
-        return BigDecimal.valueOf(1);
+        return BigDecimal.valueOf(1.5);
     }
 }

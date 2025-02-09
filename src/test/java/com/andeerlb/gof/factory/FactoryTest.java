@@ -26,7 +26,7 @@ public class FactoryTest {
     }
 
     @Test
-    @DisplayName("Should return Delivery Fee with fixed value")
+    @DisplayName("Should return Platform Fee with fixed value")
     public void shouldReturnDeliveryFeeWithFixed() {
         FeeFactory deliveryFeeFactory = new PlatformFeeFactory();
         Fee fee = deliveryFeeFactory.createFee();

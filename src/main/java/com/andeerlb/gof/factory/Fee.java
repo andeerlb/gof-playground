@@ -2,10 +2,6 @@ package com.andeerlb.gof.factory;
 
 import java.math.BigDecimal;
 
-enum FeeType {
-    PERCENTAGE, FIXED
-}
-
 public interface Fee {
     FeeType getType();
     BigDecimal fee();
