@@ -1,15 +1,35 @@
 package com.andeerlb.gof.builder.fi;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Person {
     private String surname;
     private String givenName;
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
     private String personalNumber;
     private String placeOfBirth;
 
     public Person() {}
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public String getGivenName() {
+        return givenName;
+    }
+
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public String getPersonalNumber() {
+        return personalNumber;
+    }
+
+    public String getPlaceOfBirth() {
+        return placeOfBirth;
+    }
 
     public void setSurname(String surname) {
         this.surname = surname;
@@ -19,7 +39,7 @@ public class Person {
         this.givenName = givenName;
     }
 
-    public void setDateOfBirth(Date dateOfBirth) {
+    public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -29,16 +49,5 @@ public class Person {
 
     public void setPlaceOfBirth(String placeOfBirth) {
         this.placeOfBirth = placeOfBirth;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "surname='" + surname + '\'' +
-                ", givenName='" + givenName + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                ", personalNumber='" + personalNumber + '\'' +
-                ", placeOfBirth='" + placeOfBirth + '\'' +
-                '}';
     }
 }

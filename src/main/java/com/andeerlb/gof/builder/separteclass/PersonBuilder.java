@@ -1,11 +1,11 @@
 package com.andeerlb.gof.builder.separteclass;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class PersonBuilder {
     private String surname;
     private String givenName;
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
     private String personalNumber;
     private String placeOfBirth;
 
@@ -19,8 +19,8 @@ public class PersonBuilder {
         return this;
     }
 
-    public PersonBuilder dateOfBirth(Date dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public PersonBuilder dateOfBirth(int year, int month, int day) {
+        this.dateOfBirth = LocalDate.of(year, month, day);
         return this;
     }
 

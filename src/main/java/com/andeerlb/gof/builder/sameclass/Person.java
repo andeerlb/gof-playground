@@ -1,11 +1,11 @@
 package com.andeerlb.gof.builder.sameclass;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Person {
     private String surname;
     private String givenName;
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
     private String personalNumber;
     private String placeOfBirth;
 
@@ -17,21 +17,30 @@ public class Person {
         this.placeOfBirth = builder.placeOfBirth;
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "surname='" + surname + '\'' +
-                ", givenName='" + givenName + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                ", personalNumber='" + personalNumber + '\'' +
-                ", placeOfBirth='" + placeOfBirth + '\'' +
-                '}';
+    public String getSurname() {
+        return surname;
+    }
+
+    public String getGivenName() {
+        return givenName;
+    }
+
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public String getPersonalNumber() {
+        return personalNumber;
+    }
+
+    public String getPlaceOfBirth() {
+        return placeOfBirth;
     }
 
     public static class PersonBuilder {
         private String surname;
         private String givenName;
-        private Date dateOfBirth;
+        private LocalDate dateOfBirth;
         private String personalNumber;
         private String placeOfBirth;
 
@@ -45,8 +54,8 @@ public class Person {
             return this;
         }
 
-        public PersonBuilder dateOfBirth(Date dateOfBirth) {
-            this.dateOfBirth = dateOfBirth;
+        public PersonBuilder dateOfBirth(int year, int month, int day) {
+            this.dateOfBirth = LocalDate.of(year, month, day);
             return this;
         }
 
@@ -58,6 +67,10 @@ public class Person {
         public PersonBuilder placeOfBirth(String placeOfBirth) {
             this.placeOfBirth = placeOfBirth;
             return this;
+        }
+
+        public Person build() {
+            return new Person(this);
         }
     }
 }
