@@ -11,6 +11,6 @@ The Builder pattern solves this problem by:
 ✅ Ensuring immutability by returning a fully constructed object at the end.
 
 Basically, we can create this solution in three common ways:
-* With a functional interface
-* With a separate class
-* With a builder class within the same class
+* With a [functional interface](./fi)
+* With a [separate class](./separteclass)
+* With a builder class [within the same class](./sameclass)
