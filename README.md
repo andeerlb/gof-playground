@@ -14,7 +14,7 @@ Gangs of Four Design Patterns is the collection of 23 design patterns from the b
 * ✅ [Singleton](src/main/java/com/andeerlb/gof/singleton/README.md)
 * ✅ [Factory Method](src/main/java/com/andeerlb/gof/factory/README.md)
 * ✅ [Abstract Factory](src/main/java/com/andeerlb/gof/abstractfactory/README.md)
-* 🕞 [Builder](src/main/java/com/andeerlb/gof/builder/README.md)
+* ✅ [Builder](src/main/java/com/andeerlb/gof/builder/README.md)
 * 🕞 [Prototype](src/main/java/com/andeerlb/gof/prototype/README.md)
 
 #### Structural - The design patterns in this category deals with the class structure such as Inheritance and Composition.
