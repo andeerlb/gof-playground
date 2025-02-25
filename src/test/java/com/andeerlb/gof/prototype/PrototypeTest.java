@@ -59,4 +59,31 @@ public class PrototypeTest {
         Assertions.assertEquals("F", person2.getInformation().getGender());
         Assertions.assertEquals(18, person2.getInformation().getAge());
     }
+
+    @DisplayName("Should return deep copy by constructor")
+    @Test
+    public void shouldReturnDeepCopyByConstructor() {
+        var person1 = new com.andeerlb.gof.prototype.deep.Person("Anderson", "Babinski",
+                new com.andeerlb.gof.prototype.deep.Information("M", 28));
+        var person2 = new com.andeerlb.gof.prototype.deep.Person(person1);
+
+        Assertions.assertEquals("Anderson", person1.getGivenName());
+        Assertions.assertEquals("Babinski", person1.getSurname());
+        Assertions.assertEquals("M", person1.getInformation().getGender());
+        Assertions.assertEquals(28, person1.getInformation().getAge());
+
+        Assertions.assertEquals(person1.getGivenName(), person2.getGivenName());
+        Assertions.assertEquals(person1.getSurname(), person2.getSurname());
+        Assertions.assertEquals(person1.getInformation().getGender(), person2.getInformation().getGender());
+        Assertions.assertEquals(person1.getInformation().getAge(), person2.getInformation().getAge());
+
+        person2.getInformation().setGender("F");
+        person2.getInformation().setAge(18);
+
+        Assertions.assertEquals("M", person1.getInformation().getGender());
+        Assertions.assertEquals(28, person1.getInformation().getAge());
+
+        Assertions.assertEquals("F", person2.getInformation().getGender());
+        Assertions.assertEquals(18, person2.getInformation().getAge());
+    }
 }
