@@ -1,5 +1,6 @@
 package com.andeerlb.gof.prototype;
 
+import com.andeerlb.gof.prototype.factory.PrototypeFactory;
 import com.andeerlb.gof.prototype.shallow.Information;
 import com.andeerlb.gof.prototype.shallow.Person;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -204,5 +205,24 @@ public class PrototypeTest {
 
         Assertions.assertEquals("F", person2.getInformation().getGender());
         Assertions.assertEquals(18, person2.getInformation().getAge());
+    }
+
+    @DisplayName("Should return a prototype from prototype factory")
+    @Test
+    public void shouldReturnPrototypeFromPrototypeFactory() {
+        var person1 = new com.andeerlb.gof.prototype.deep.Person("Anderson", "Babinski",
+                new com.andeerlb.gof.prototype.deep.Information("M", 28));
+
+        var person2 = new com.andeerlb.gof.prototype.deep.Person("Juliana", "Osvanilsk",
+                new com.andeerlb.gof.prototype.deep.Information("F", 50));
+
+        PrototypeFactory.addPrototype("personM", person1);
+        PrototypeFactory.addPrototype("personF", person2);
+
+        var personMFromPrototype = (com.andeerlb.gof.prototype.deep.Person) PrototypeFactory.getPrototype("personM");
+        var personFFromPrototype = (com.andeerlb.gof.prototype.deep.Person) PrototypeFactory.getPrototype("personF");
+
+        Assertions.assertEquals("M", personMFromPrototype.getInformation().getGender());
+        Assertions.assertEquals("F", personFFromPrototype.getInformation().getGender());
     }
 }
