@@ -18,8 +18,8 @@ Gangs of Four Design Patterns is the collection of 23 design patterns from the b
 * ✅ [Prototype](src/main/java/com/andeerlb/gof/prototype/README.md)
 
 #### Structural - The design patterns in this category deals with the class structure such as Inheritance and Composition.
-* 🕞 [Adapter](src/main/java/com/andeerlb/gof/adapter/README.md)
-* ❌ Composite
+* ✅ [Adapter](src/main/java/com/andeerlb/gof/adapter/README.md)
+* 🕞 Composite
 * ❌ Proxy
 * ❌ Flyweight
 * ❌ Facade
