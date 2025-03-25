@@ -1,8 +1,8 @@
 package com.andeerlb.gof.proxy;
 
 public class StaticProxy implements Service{
-    private final ServiceImpl service;
-    public StaticProxy(ServiceImpl service) {
+    private final Service service;
+    public StaticProxy(Service service) {
         this.service = service;
     }
 
