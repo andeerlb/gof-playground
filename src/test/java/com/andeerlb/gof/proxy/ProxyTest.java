@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-import java.lang.reflect.Proxy;
 
 public class ProxyTest {
     @DisplayName("Should execute static proxy")
@@ -33,11 +32,7 @@ public class ProxyTest {
         System.setOut(printStream);
 
         ServiceImpl serviceImpl = new ServiceImpl();
-        Service proxy = (Service) Proxy.newProxyInstance(
-                serviceImpl.getClass().getClassLoader(),
-                new Class[]{Service.class},
-                new DynamicProxy(serviceImpl)
-        );
+        Service proxy = (Service) DynamicProxy.createProxy(serviceImpl);
 
         proxy.execute();
 
