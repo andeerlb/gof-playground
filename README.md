@@ -21,8 +21,8 @@ Gangs of Four Design Patterns is the collection of 23 design patterns from the b
 * ✅ [Adapter](src/main/java/com/andeerlb/gof/adapter/README.md)
 * ✅ [Composite](src/main/java/com/andeerlb/gof/composite/README.md)
 * ✅ [Proxy](src/main/java/com/andeerlb/gof/proxy/README.md)
-* 🕞 [Flyweight](src/main/java/com/andeerlb/gof/flyweight/README.md)
-* ❌ Facade
+* ✅ [Flyweight](src/main/java/com/andeerlb/gof/flyweight/README.md)
+* 🕞 [Facade](src/main/java/com/andeerlb/gof/facade/README.md)
 * ❌ Bridge
 * ❌ Decorator
 
