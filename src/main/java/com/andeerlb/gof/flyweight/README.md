@@ -12,10 +12,10 @@ The Flyweight Design Pattern is used to reduce memory usage and improve performa
 
 This significantly reduces memory usage.
 
-2. Separating Shared and Unique Data
-   Flyweight splits the object’s state into:
-   ✅ Intrinsic state (shared, constant data) → Stored inside the flyweight object.
-   ✅ Extrinsic state (unique, changing data) → Passed separately when needed.
+2. Separating Shared and Unique Data  
+   Flyweight splits the object’s state into:  
+   ✅ Intrinsic state (shared, constant data) → Stored inside the flyweight object.  
+   ✅ Extrinsic state (unique, changing data) → Passed separately when needed.  
 
 This keeps the shared object lightweight, avoiding unnecessary duplication of data.
 
