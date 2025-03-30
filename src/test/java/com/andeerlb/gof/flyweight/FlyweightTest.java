@@ -21,18 +21,4 @@ public class FlyweightTest {
         Task task2 = TaskFactory.getTask("physical-task");
         Assertions.assertSame(task1, task2);
     }
-
-    @Test
-    public void shouldEnsureThatThreadsAreBeingUsingAndSharingObjects() {
-        var threadPool = new ThreadPool(2);
-        var task1 = TaskFactory.getTask("physical-task");
-        var task2 = TaskFactory.getTask("physical-task");
-
-        threadPool.submitTasks(task1);
-        threadPool.submitTasks(task2);
-
-
-
-        threadPool.shutdown();
-    }
 }
