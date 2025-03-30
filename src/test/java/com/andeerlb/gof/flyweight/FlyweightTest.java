@@ -11,6 +11,10 @@ public class FlyweightTest {
     public void shouldEnsureThatObjectsAreDistinct() {
         Task physicalTask = TaskFactory.getTask("physical-task");
         Task virtualTask = TaskFactory.getTask("virtual-task");
+
+        physicalTask.execute();
+        virtualTask.execute();
+
         Assertions.assertNotSame(physicalTask, virtualTask);
     }
 
@@ -19,6 +23,10 @@ public class FlyweightTest {
     void shouldEnsureThatObjectsAreBeingSharing() {
         Task task1 = TaskFactory.getTask("physical-task");
         Task task2 = TaskFactory.getTask("physical-task");
+
+        task1.execute();
+        task2.execute();
+
         Assertions.assertSame(task1, task2);
     }
 }
