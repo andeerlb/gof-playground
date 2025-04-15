@@ -12,4 +12,4 @@ The Singleton pattern solves two problems at the same time
 * Create a static creation method that acts as a constructor. This method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
 
 ## class test
-[click here](src/test/java/com/andeerlb/gof/singleton/SingletonTest.java)
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/singleton/SingletonTest.java)
