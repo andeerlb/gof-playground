@@ -16,3 +16,6 @@ For each product family, create a concrete factory class that implements the abs
 Abstract factory adds another level of abstraction to factory method. While factory method abstracts the way objects are created,
 abstract factory abstracts how the factories are created. The factories in turn abstracts the way objects are created.
 You will often hear the abstract factory design pattern referred to as a “factory of factories“.
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/abstractfactory/AbstractFactoryTest.java)

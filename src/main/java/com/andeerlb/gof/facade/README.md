@@ -16,3 +16,6 @@ you’ll have your first facade.
 
 A facade is a class that provides a simple interface to a complex subsystem which contains lots of moving parts. A facade might provide limited functionality in comparison to working with the subsystem directly. 
 However, it includes only those features that clients really care about.
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/facade/FacadeTest.java)

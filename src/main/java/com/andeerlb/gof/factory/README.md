@@ -6,3 +6,6 @@ Factory Method pattern solves the problem of rigid, tightly coupled object creat
 
 ## How does it solve these problems?
 The Factory Method pattern solves these problems by introducing an abstraction layer between the client and the object creation process
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/factory/FactoryTest.java)

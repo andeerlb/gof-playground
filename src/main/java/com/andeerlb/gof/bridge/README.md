@@ -11,3 +11,5 @@ Without the Bridge pattern, you'd need to create a separate class for every comb
 * Decouples abstraction from implementation, so they can evolve independently.
 * Reduces code duplication by separating concerns.
 * Improves flexibility and scalability, making it easier to add new shapes or rendering methods without changing existing code.
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/bridge/BridgeTest.java)

@@ -9,3 +9,5 @@ happens without noise.
 ## How does it solve these problems?
 You can create an adapter. This is a special object that converts the interface of one object so that another object can understand it.
 
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/adapter/AdapterTest.java)

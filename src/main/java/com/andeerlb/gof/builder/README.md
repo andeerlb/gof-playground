@@ -14,3 +14,6 @@ Basically, we can create this solution in three common ways:
 * With a [functional interface](./fi)
 * With a [separate class](./separteclass)
 * With a builder class [within the same class](./sameclass)
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/builder/BuilderTest.java)

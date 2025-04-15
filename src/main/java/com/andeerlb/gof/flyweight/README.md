@@ -22,3 +22,6 @@ This keeps the shared object lightweight, avoiding unnecessary duplication of da
    A Flyweight Factory ensures that shared objects are reused instead of creating new instances.
 
 It keeps a cache (or pool) of flyweight objects and provides an existing one if requested.
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/flyweight/FlyweightTest.java)

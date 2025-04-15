@@ -13,3 +13,6 @@ This pattern simplifies code by allowing clients to interact with both in a cons
 The Composite Pattern solves this problem by defining a common interface for both individual objects (leaves) and composite objects (containers). 
 This allows treating them the same way, enabling recursive structures where composites can contain other composites or leaves. 
 Clients interact with all elements through the same interface, simplifying operations on hierarchical structures.
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/composite/CompositeTest.java)

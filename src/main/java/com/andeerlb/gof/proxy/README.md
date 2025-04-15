@@ -96,3 +96,6 @@ A **smart proxy** adds **extra functionality** to an object, such as reference c
 
 #### Example:
 A smart proxy could keep track of how many times a resource has been used and release it after a certain number of uses.
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/proxy/ProxyTest.java)

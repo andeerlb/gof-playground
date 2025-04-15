@@ -11,3 +11,6 @@ The Prototype Pattern is ideal when object creation is expensive, repetitive, or
 ✅ Ensure consistency by cloning pre-configured objects.  
 ✅ Reduce code duplication and avoid subclass explosion.  
 *If you need to create many similar objects dynamically, Prototype is the right choice!*
+
+## class test
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/prototype/PrototypeTest.java)
