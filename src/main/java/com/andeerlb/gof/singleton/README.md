@@ -10,3 +10,6 @@ The Singleton pattern solves two problems at the same time
 ## How does it solve these problems?
 * Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
 * Create a static creation method that acts as a constructor. This method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
+
+## class test
+[click here](src/test/java/com/andeerlb/gof/bridge/BridgeTest.class)
