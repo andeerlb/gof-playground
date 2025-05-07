@@ -27,9 +27,9 @@ Gangs of Four Design Patterns is the collection of 23 design patterns from the b
 * ✅ [Decorator](src/main/java/com/andeerlb/gof/decorator/README.md)
 
 #### Behavioral - This type of design patterns provide solution for the better interaction between objects, how to provide lose coupling, and flexibility to extend easily in future.
-* 🕞 [Template](src/main/java/com/andeerlb/gof/template/README.md)
-* ❌ [Mediator](src/main/java/com/andeerlb/gof/mediator/README.md)
-* ❌ Chain
+* ✅ [Template](src/main/java/com/andeerlb/gof/template/README.md)
+* 🕞 [Mediator](src/main/java/com/andeerlb/gof/mediator/README.md)
+* ❌ [Chain](src/main/java/com/andeerlb/gof/mediator/README.md)
 * ❌ Observer
 * ❌ Strategy
 * ❌ Command
