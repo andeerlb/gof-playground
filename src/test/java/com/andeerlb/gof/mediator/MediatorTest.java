@@ -13,7 +13,7 @@ public class MediatorTest {
 
     @BeforeEach
     void setUp() {
-        ChatRoom chatRoom = new ChatRoom();
+        ChatRoomMediator chatRoom = new ChatRoomMediator();
         userA = new TestUser(chatRoom, "Anderson");
         userB = new TestUser(chatRoom, "Lucas");
         userC = new TestUser(chatRoom, "Diego");

@@ -3,7 +3,7 @@ package com.andeerlb.gof.mediator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChatRoom implements ChatMediator {
+public class ChatRoomMediator implements ChatMediator {
     private List<User> users = new ArrayList<>();
 
     @Override
