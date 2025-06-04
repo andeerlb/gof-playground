@@ -7,4 +7,4 @@ It appears as if the object changed its class.
 ## How does it solve these problems?
 
 ## class test
-[click here](../../../../../../../src/test/java/com/andeerlb/gof/singleton/SingletonTest.java)
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/state/StateTest.java)
