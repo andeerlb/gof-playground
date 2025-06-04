@@ -28,4 +28,4 @@ Commands can be stored and executed later, useful in jobs systems, task queues, 
 4. Queues and logs operations  
    Commands can be stored in a queue, persisted, or re-executed later (like a job system or macro recorder).
 ## class test
-[click here](../../../../../../../src/test/java/com/andeerlb/gof/command/Command.java)
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/command/CommandTest.java)
