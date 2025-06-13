@@ -19,4 +19,4 @@ messy. Interpreter organizes it into reusable classes.
 * Clear separation: It separates grammar definition, parsing, and evaluation logic cleanly.
 
 ## class test
-[click here](../../../../../../../src/test/java/com/andeerlb/gof/interpreter/Interpreter.java)
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/interpreter/InterpreterTest.java)
