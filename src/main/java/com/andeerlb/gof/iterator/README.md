@@ -20,4 +20,4 @@ It typically involves:
 * Flexibility: Multiple iterator types (e.g. forward, reverse, filter) can be created without modifying the collection.
 
 ## class test
-[click here](../../../../../../../src/test/java/com/andeerlb/gof/iterator/InteratorTest.java)
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/iterator/IteratorTest.java)
