@@ -10,4 +10,4 @@ The Memento Pattern captures and stores an object's internal state without expos
 Later, the object can be restored to this saved state. This allows implementing features like undo/redo while preserving encapsulation.
 
 ## class test
-[click here](../../../../../../../src/test/java/com/andeerlb/gof/observer/MementoTest.java)
+[click here](../../../../../../../src/test/java/com/andeerlb/gof/memento/MementoTest.java)
