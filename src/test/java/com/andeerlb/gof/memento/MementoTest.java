@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MementoTest {
     @Test
-    void testDocumentUndo() {
+    void shouldDocumentUndo() {
         Document document = new Document();
         History history = new History();
 
