@@ -37,4 +37,4 @@ Gangs of Four Design Patterns is the collection of 23 design patterns from the b
 * ✅ [Visitor](src/main/java/com/andeerlb/gof/visitor/README.md)
 * ✅ [Interpreter](src/main/java/com/andeerlb/gof/interpreter/README.md)
 * ✅ [Iterator](src/main/java/com/andeerlb/gof/iterator/README.md)
-* 🕞 [Memento](src/main/java/com/andeerlb/gof/memento/README.md)
+* ✅ [Memento](src/main/java/com/andeerlb/gof/memento/README.md)
